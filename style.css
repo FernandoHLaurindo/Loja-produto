@@ -1,0 +1,143 @@
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #00ff00;
+}
+
+header p {
+    font-size: 18px;
+    color: #aaa;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info img {
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    cursor: pointer; /* Indica que a imagem pode ser clicada */
+}
+
+.product-info h2 {
+    font-size: 28px;
+    color: #00ff00;
+}
+
+.product-info p {
+    font-size: 18px;
+}
+
+.purchase-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.purchase-btn:hover {
+    background-color: #00cc00;
+}
+
+.comments {
+    padding: 20px;
+    background-color: #333;
+}
+
+.comment {
+    margin: 10px 0;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#comment-form {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#user-comment {
+    width: 80%;
+    height: 100px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #00ff00;
+}
+
+#submit-comment {
+    background-color: #00ff00;
+    padding: 10px 20px;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    color: #aaa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    
