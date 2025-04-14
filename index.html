@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os melhores achados da NET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Os melhores achados da NET</h1>
+        <p>Repositor de Flora Hormonal Feminino</p>
+    </header>
+
+    <main>
+        <section class="product-info">
+            <!-- A imagem agora pode ser clicada para abrir a janela modal -->
+            <img id="product-image" src="product-image.jpg" alt="Repositor de Flora Hormonal" onclick="openModal()">
+            <h2>Repositor de Flora Hormonal</h2>
+            <p>Preço: R$ 19,99</p>
+            <p>Descrição: Na compra de 1 produto, sem desconto.</p>
+            <a href="https://link.picpay.com/p/174465656267fd58b2a1b32" class="purchase-btn">Comprar 1 unidade</a>
+            <p>Ou aproveite o desconto:</p>
+            <p>Na compra de 5 produtos com desconto: R$ 79,99</p>
+            <a href="https://link.picpay.com/p/174465674367fd59677ac85" class="purchase-btn">Comprar 5 unidades</a>
+        </section>
+
+        <section class="comments">
+            <h3>Comentários de usuários</h3>
+            <div class="comment">
+                <p><strong>Maria Clara:</strong> Produto maravilhoso, recomendo muito! 5 estrelas!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Joana Silva:</strong> Amei, minha flora hormonal está equilibrada novamente!</p>
+            </div>
+            <button id="show-comment-form">Deixe seu comentário</button>
+        </section>
+
+        <section id="comment-form" style="display:none;">
+            <h3>Deixe seu comentário</h3>
+            <textarea id="user-comment" placeholder="Escreva seu comentário aqui..."></textarea>
+            <button id="submit-comment">Enviar</button>
+        </section>
+    </main>
+
+    <!-- Modal de imagem -->
+    <div id="image-modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Os melhores achados da NET. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
