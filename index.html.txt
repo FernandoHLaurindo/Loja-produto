@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPRO - Produtos em Geral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FitPRO - Produtos em Geral</h1>
+        <p>Os melhores achados da NET</p>
+    </header>
+
+    <main>
+        <section class="product">
+            <h2>Tônico Capilar Repositor de Hormônio Testosterona</h2>
+            <p><strong>Preço:</strong> R$ 29,90</p>
+            <p>Descrição:</p>
+            <ul>
+                <li>Tônico capilar especial que auxilia na reposição de hormônios como a testosterona.</li>
+                <li>Fórmula desenvolvida para promover o crescimento saudável dos fios e fortalecer os cabelos.</li>
+                <li>Frete grátis!</li>
+            </ul>
+            <a href="https://link.picpay.com/p/174464689167fd32eb17910" class="buy-button">Comprar agora</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Entre em contato: seu-email@exemplo.com</p>
+    </footer>
+</body>
+</html>
